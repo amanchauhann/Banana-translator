@@ -25,8 +25,8 @@ function errorHandler(error) {
 // this is the url generated for translation 
 
 function urlGenerator(text){
-
-    return serverURL + "?text=" + text;
+    random = serverURL + "?text=" + text;
+        return (random)
 }
 
 // click handler function which will be called when click happens on translate button
